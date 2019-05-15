@@ -3,10 +3,10 @@ $:.push File.expand_path("../lib", __FILE__)
 require "shamir-secret-sharing"
 
 Gem::Specification.new do |s|
-  s.name        = "shamir-secret-sharing"
+  s.name        = "extended-shamir-secret-sharing"
   s.version     = ShamirSecretSharing::VERSION
-  s.authors     = ["lian"]
-  s.email       = ["meta.rb@gmail.com"]
+  s.authors     = ["lian", "Armand Mégrot"]
+  s.email       = ["meta.rb@gmail.com", "armand.megrot@cashbee.fr"]
   s.homepage    = ""
   s.summary     = %q{Gem for Shamir's Secret Sharing}
   s.description = %q{Gem for Shamir's Secret Sharing}
